@@ -19,6 +19,30 @@ public class SpalshScreen extends javax.swing.JFrame {
         initComponents();
     }
 
+    public void startSplashAnimation() {
+        new Thread(() -> {
+            try {
+                for (int i = 0; i <= 100; i++) {
+                    final int progress = i;
+                    javax.swing.SwingUtilities.invokeLater(() -> {
+                        loadingprogress.setValue(progress);
+                        loadingnumber.setText(progress + "%");
+                    });
+                    Thread.sleep(20);
+                }
+                javax.swing.SwingUtilities.invokeLater(() -> {
+                    new NewSignin().setVisible(true);
+                    dispose();
+                });
+            } catch (Exception e) {
+                javax.swing.SwingUtilities.invokeLater(() -> {
+                    new NewSignin().setVisible(true);
+                    dispose();
+                });
+            }
+        }).start();
+    }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always

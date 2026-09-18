@@ -48,6 +48,7 @@ public class Main {
                 java.awt.EventQueue.invokeLater(() -> {
                     SpalshScreen splash = new SpalshScreen();
                     splash.setVisible(true);
+                    splash.startSplashAnimation();
                 });
             } catch (Throwable t) {
                 System.out.println("[Main] GUI initialization warning (" + t.getMessage() + "). Falling back to CLI controller.");
