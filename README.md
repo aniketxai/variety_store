@@ -4,14 +4,14 @@ A robust, enterprise-grade Java application designed for retail variety stores t
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 The **Variety Store Inventory & POS System** is a modular Java desktop and command-line application built with an embedded H2 database. It enables retail store managers and cashiers to efficiently manage product catalogs, monitor inventory levels with automated low-stock warnings, manage supplier networks, process sales transactions, and generate PDF invoices.
 
 Designed to adhere to academic and technical evaluation standards, the application provides **dual-mode execution**: it runs seamlessly via a Command-Line Interface (CLI) in headless terminal environments or via a rich Java Swing Graphical User Interface (GUI).
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### 1. Inventory & Product Management
 - Complete CRUD operations for store products.
@@ -37,7 +37,7 @@ Designed to adhere to academic and technical evaluation standards, the applicati
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## Technologies & Tools Used
 - **Programming Language**: Java 17 / Java 26 (JDK SE)
 - **Database Engine**: Embedded H2 Database (v1.4.200)
 - **PDF Export Engine**: iText PDF Library (v5.4.0)
@@ -47,7 +47,7 @@ Designed to adhere to academic and technical evaluation standards, the applicati
 
 ---
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```
 variety_store/
@@ -82,7 +82,7 @@ variety_store/
 
 ---
 
-## 💻 Installation & Execution Instructions
+## Installation & Execution Instructions
 
 ### Prerequisites
 - Java Development Kit (JDK 17 or higher installed).
@@ -132,7 +132,7 @@ variety_store/
 
 ---
 
-## 🧪 Testing Approach & Instructions
+## Testing Approach & Instructions
 
 The project contains a comprehensive automated unit test suite.
 
@@ -149,7 +149,7 @@ To run the unit tests directly:
 
 ---
 
-## 📐 Architecture & Workflow Overview
+## Architecture & Workflow Overview
 
 ```
                       +-----------------------------+
@@ -188,5 +188,5 @@ To run the unit tests directly:
 
 ---
 
-## 📄 License & Academic Integrity
+## License & Academic Integrity
 Submitted as an original project for Java Programming Course Evaluation.
